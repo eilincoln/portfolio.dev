@@ -30,4 +30,6 @@
 body {
   margin: 0px;
   padding: 0px;
+  color: var(--gray-100);
+  box-sizing: border-box;
 }
