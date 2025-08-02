@@ -32,4 +32,5 @@ body {
   padding: 0px;
   color: var(--gray-100);
   box-sizing: border-box;
+  background-color: var(--gray-500);
 }

@@ -1,0 +1,37 @@
+.projetos {
+  text-align: center;
+
+  span {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    color: var(--red);
+    font: var(--subtitle);
+  }
+
+  h3 {
+    margin-top: 8px;
+    margin-bottom: 56px;
+    font: var(--title-md);
+    color: var(--gray-100);
+  }
+}
+
+.grid-card {
+  /* background-color: black; */
+  /* width: 1040px; */
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, 330px);
+
+  justify-content: center;
+}
+
+.card {
+  padding: 12px;
+  background-color: var(--gray-400);
+  border-radius: 12px;
+}
+
+.card img {
+  width: 306px;
+}

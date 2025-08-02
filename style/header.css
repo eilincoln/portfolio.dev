@@ -1,6 +1,6 @@
 header {
   background-image: url(../assets/images/Background_Intro.png);
-  height: 100vh;
+  /* height: 100vh; */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -20,12 +20,12 @@ header {
 
 .code {
   position: absolute;
-  top: 185px;
+  top: 200px;
   right: 2px;
 }
 
 .foto-perfil .foto {
-  margin-top: 100px;
+  margin-top: 120px;
   width: 100px;
   border-radius: 50%;
   border: 3px solid var(--red);
@@ -54,7 +54,9 @@ header {
 }
 
 .carret-down {
-  margin-top: 70px;
+  display: block;
+  margin-top: 80px;
+  margin-bottom: 57px;
   text-align: center;
 }
 
@@ -64,7 +66,8 @@ header {
 }
 
 .tags {
-  margin-top: 40px;
+  margin-top: 80px;
+
   display: flex;
   gap: 16px;
   justify-content: center;
