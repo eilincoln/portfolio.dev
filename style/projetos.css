@@ -30,8 +30,21 @@
   padding: 12px;
   background-color: var(--gray-400);
   border-radius: 12px;
+  text-align: left;
 }
 
 .card img {
   width: 306px;
+  border-radius: 8px;
+}
+
+.card h4 {
+  font: var(--title-sm);
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  margin-top: 0px;
+  font: var(--text-sm);
 }
