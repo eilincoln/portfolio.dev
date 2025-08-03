@@ -1,4 +1,7 @@
 .contato {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-position: center;
+  background-size: cover;
   text-align: center;
   margin-top: 120px;
   margin-bottom: 200px;
