@@ -16,5 +16,40 @@
     margin: 0px;
     padding: 0px;
     margin-top: 8px;
+    margin-bottom: 56px;
+  }
+}
+
+.container-blocos {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+
+  .bloco {
+    width: 280px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid var(--gray-500);
+    margin-bottom: 120px;
+
+    img {
+      width: 48px;
+      margin-bottom: 0px;
+    }
+
+    h4 {
+      margin-top: 20px;
+      font: var(--title-sm);
+      color: var(--gray-100);
+      margin-bottom: 0px;
+    }
+
+    p {
+      margin-top: 8px;
+      font: var(--text-sm);
+      color: var(--gray-200);
+      margin-bottom: 0px;
+    }
   }
 }
