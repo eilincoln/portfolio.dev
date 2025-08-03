@@ -1,0 +1,20 @@
+.servicos {
+  text-align: center;
+  margin-top: 88px;
+  background-color: var(--gray-600);
+  span {
+    display: inline-block;
+    font: var(--subtitle);
+    color: var(--red);
+    margin: 0px;
+    padding: 0px;
+    margin-top: 88px;
+  }
+
+  h3 {
+    font: var(--title-md);
+    margin: 0px;
+    padding: 0px;
+    margin-top: 8px;
+  }
+}
