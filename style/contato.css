@@ -1,0 +1,71 @@
+.contato {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 200px;
+
+  .contato-header {
+    span {
+      display: inline-block;
+      margin: 0px;
+      color: var(--purple);
+      font: var(--subtitle);
+      margin-bottom: 8px;
+    }
+
+    h3 {
+      margin: 0px;
+      margin-bottom: 8px;
+      font: var(--title-md);
+      color: var(--gray-100);
+    }
+
+    p {
+      margin: 0px;
+      font: var(--text-md);
+      color: var(--gray-200);
+    }
+  }
+
+  .social-grupo {
+    margin-top: 48px;
+    display: grid;
+    width: 400px;
+    gap: 16px;
+    justify-self: center;
+
+    a {
+      display: grid;
+      gap: 3px;
+      grid-template-columns: 28px 1fr 20px;
+      text-decoration: none;
+      color: var(--gray-200);
+      background-color: var(--gray-400);
+      padding: 20px;
+      border-radius: 8px;
+      font: var(--text-md);
+
+      border: 2px solid var(--gray-400);
+
+      &:hover {
+        border: 2px solid var(--blue);
+      }
+
+      img {
+        display: block;
+        width: 28px;
+        margin: 0px;
+        align-self: center;
+      }
+
+      .seta {
+        width: 20px;
+      }
+
+      p {
+        margin: 0px;
+        text-align: left;
+        align-self: center;
+      }
+    }
+  }
+}
